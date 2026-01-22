@@ -49,7 +49,7 @@ const performGeminiAnalysis = async (config: AnalysisConfig): Promise<string> =>
 const performOpenAIAnalysis = async (config: AnalysisConfig): Promise<string> => {
   // Using the custom base_url and key provided in the prompt
   const BASE_URL = "https://apidev.navigatelabsai.com/v1/chat/completions";
-  const API_KEY = "sk-AztPIFWJK0itNf8c95Zjlg";
+  const API_KEY = "sk-Z61Kc7MVHrzOgqDqPhyOZQ";
 
   try {
     const response = await fetch(BASE_URL, {
